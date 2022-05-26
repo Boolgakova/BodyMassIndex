@@ -3,7 +3,7 @@ public class Main {
         BmiService service = new BmiService();
         double weight = 62; //вес в килограммах
         double height = 166; //рост в сантиметрах
-        double index = service.calculate(height, weight);
+        double index = service.calculate(weight, height);
         System.out.println("Ваш ИМТ составляет " + index);
     }
 }
